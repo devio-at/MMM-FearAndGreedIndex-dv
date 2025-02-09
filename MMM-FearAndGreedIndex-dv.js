@@ -82,7 +82,7 @@ Module.register("MMM-FearAndGreedIndex-dv", {
     getColorForIndex: function(value) {
         if (value >= 75) {  // extreme greed
             return "rgb(0, 255, 0)"; // Green
-        } else if (value >= 55) { // extreme greed
+        } else if (value >= 55) { // greed
             return "rgb(255, 255, 0)"; // Yellow
         } else if (value <= 25) {   // extreme fear
             return "rgb(255, 0, 0)"; // Red
